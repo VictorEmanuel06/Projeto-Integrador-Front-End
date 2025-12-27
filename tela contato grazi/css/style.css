@@ -9,20 +9,30 @@
 html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #E8F2EF;
 }
+
 /* Tipografia */
-.subtitle,h2 {
+.subtitle,
+h2 {
 
     text-align: center;
     margin-top: 20px;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: 100;
 }
-p,li,a,span {
+
+p,
+li,
+a,
+span {
     font-weight: 400;
 }
 
@@ -75,7 +85,7 @@ nav {
 
 /* Formulario de contato */
 #fale-comigo {
-    max-width:460px;
+    width: 95%;
     margin: 0 auto;
     /* centraliza na tela */
     padding: 2rem;
@@ -86,8 +96,10 @@ nav {
     gap: 1rem;
     margin-top: 20px;
     padding-top: 10px;
-    background-image: url(/projetointegrador/tela\ contato\ Grazi/img/1000140662.jpg);
+    background-image: url(/img/1000140662.jpg);
     background-size: cover;
+    align-items: flex-start;
+    align-items: center;
 }
 
 /* Título e subtítulo */
@@ -107,12 +119,15 @@ nav {
 /* Campos */
 #fale-comigo input,
 #fale-comigo textarea {
-    width: 100%;
+    width: 550px;
+    max-width: 100%;
     padding: 0.8rem;
     border: 1px solid #402722;
     border-radius: 6px;
     font-size: 1rem;
     box-sizing: border-box;
+
+
 }
 
 /* Botão */
@@ -125,6 +140,8 @@ nav {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 550px;
+    max-width: 100%;
 }
 
 #fale-comigo button:hover {
@@ -140,7 +157,6 @@ nav {
 
 /* Responsividade Fale comigo */
 @media (max-width: 480px) {
-    
     #fale-comigo {
         padding: 1rem;
     }
@@ -153,6 +169,7 @@ nav {
         font-size: 0.9rem;
         padding: 0.8rem;
     }
+
 
 }
 
@@ -221,9 +238,6 @@ nav {
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
-}
-.logo-menu{
-    margin-left: 1px;
 }
 
 /* Responsividade social-links */
@@ -340,7 +354,7 @@ footer {
 
 
 /* RESPONSIVO  do footer*/
-@media (max-width: 950px) {
+@media (max-width: 768px) {
     footer {
         padding: 30px 20px;
     }
@@ -372,7 +386,6 @@ footer {
         justify-content: center;
         align-items: flex-start;
         gap: 50px;
-        margin-left: 15px;
         margin-top: -10px;
 
     }
