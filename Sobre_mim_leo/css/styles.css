@@ -11,10 +11,22 @@ body {
   font-size: 23px;
 }
 
-.sobre-mim h2 {
+.sobre-mim2 h2 {
   color: #000;
   font-size: 80 px;
   margin-bottom: 10px;
+}
+
+/* BOTÃO */
+
+.btn {
+    display: inline-block;
+    background: #0b3c8a;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 
@@ -28,7 +40,7 @@ body {
   width: 320px;
   height: 320px;
   border-radius: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
   margin-bottom: 20px;
 }
 
