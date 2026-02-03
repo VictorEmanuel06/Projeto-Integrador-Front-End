@@ -5,17 +5,14 @@ body {
   color: #0b3c8a;
 }
 
-.sobre-mim {
+.Sobre-mim {
   text-align: center;
   padding: 40px 20px;
   font-size: 23px;
+  font-family: sans-serif;
+  
 }
 
-.sobre-mim2 h2 {
-  color: #000;
-  font-size: 80 px;
-  margin-bottom: 10px;
-}
 
 /* BOTÃO */
 
@@ -27,7 +24,8 @@ body {
     border-radius: 30px;
     text-decoration: none;
     font-weight: 600;
-}
+    margin: 30px;
+   }
 
 
 .perfil {
@@ -42,6 +40,7 @@ body {
   border-radius: 100%;
   object-fit: scale-down;
   margin-bottom: 20px;
+  margin: 30px;
 }
 
 .perfil p {
@@ -355,3 +354,4 @@ footer {
         max-width: 150px;
         margin-bottom: -10px;
     }
+}
